@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <title>Thank You</title>
   <style>
-    body {
-      margin: 0;
-      background: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    img {
-      max-width: 80%;
-      max-height: 80%
-    }
-  </style>
+  body {
+    margin: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure body fills viewport */
+  }
+  img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    display: block;
+  }
+</style>
 </head>
 <body>
   <img src="Thankyou.jpg" alt="Thank You">
